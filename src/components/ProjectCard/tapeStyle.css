@@ -3,8 +3,8 @@
   width: 200px;
   height: 30px;
 
-  background-color: black;
-  opacity: 50%;
+  background-color: rgb(253, 212, 244);
+  opacity: 80%;
 
   left: 50%;
   transform: translateX(-50%) translateY(-20%) rotate(-7deg);
