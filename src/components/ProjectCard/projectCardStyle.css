@@ -1,10 +1,40 @@
 /* whole photocard container */
-div.container {
-  max-width: 300px;
-  max-height: 500px;
+
+.project-card {
+  container-type: size;
+  container-name: card;
+  width: 300px;
+  height: 450px;
+
+  display: flex;
+  justify-content: start;
+
+  border-style: solid;
+  border-color: rgb(205, 205, 205);
+  border-width: 1px;
 }
 
 /* containerof thumbnail photos */
-div.thumbnail div.container {
+.project-card .thumbnail {
+  height: 37cqh;
+  width: 90cqw;
   background-color: gray;
+
+  margin-left: 5cqw;
+}
+
+.text-wrapper {
+  width: 90cqw;
+  margin-left: 5cqw;
+}
+
+.text {
+  text-align: left;
+}
+.subheading {
+  text-align: left;
+}
+
+@container card (min-width: 280px) {
+  /* these are like media queries */
 }
