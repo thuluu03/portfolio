@@ -20,7 +20,7 @@ const ProjectCard = ({
         <div className="body">
           <figure className="thumbnail"></figure>
           <div className="text-wrapper">
-            <header className="subheading">{header}</header>
+            <header className="subheading blue">{header}</header>
             <div className="text">{blurb}</div>
           </div>
         </div>

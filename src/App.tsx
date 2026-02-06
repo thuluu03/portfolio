@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import './pages/hero.tsx'
-import Hero from './pages/hero.tsx'
-import Projects from './pages/projects.tsx'
-import AboutMe from './pages/aboutme.tsx'
-
+import { useState } from 'react';
+import './App.css';
+import './pages/hero.tsx';
+import Hero from './pages/hero.tsx';
+import Projects from './pages/projects/projects.tsx';
+import AboutMe from './pages/aboutme.tsx';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -15,7 +14,7 @@ function App() {
       <Projects></Projects>
       <AboutMe></AboutMe>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
