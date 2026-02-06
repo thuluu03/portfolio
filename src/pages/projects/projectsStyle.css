@@ -1,0 +1,7 @@
+
+.project-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1cm;
+    row-gap: 1cm;
+}

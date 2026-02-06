@@ -1,12 +1,12 @@
 .tape {
-  position: absolute;
-  width: 200px;
+  position: relative;
+  width: 175px;
   height: 30px;
 
   background-color: rgb(253, 212, 244);
   opacity: 80%;
 
   left: 50%;
-  transform: translateX(-50%) translateY(-20%) rotate(-7deg);
+  transform: translateX(-50%) translateY(-40%) rotate(-7deg);
 }
 
