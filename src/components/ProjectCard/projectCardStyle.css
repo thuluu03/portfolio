@@ -4,9 +4,10 @@
   container-type: size;
   container-name: card;
   width: 300px;
-  height: 450px;
+  height: 395px;
   background-color: white;
-  box-shadow: 2px 4px 5px;
+  box-shadow: 1px 2px 5px;
+
   display: flex;
   justify-content: start;
 
@@ -17,7 +18,7 @@
 
 /* containerof thumbnail photos */
 .project-card .thumbnail {
-  height: 37cqh;
+  height: 45cqh;
   width: 90cqw;
   background-color: gray;
 
@@ -34,6 +35,9 @@
 }
 .subheading {
   text-align: left;
+  font-weight: 700;
+
+  margin: 0.5em 0;
 }
 
 @container card (min-width: 280px) {
