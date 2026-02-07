@@ -1,0 +1,19 @@
+
+.heroContainer {
+    height: 100vh;
+}
+
+.heroBody {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.textWrapper {
+    grid-row-start: 2;
+}
+
+.image {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
