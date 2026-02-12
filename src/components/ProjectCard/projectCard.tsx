@@ -7,9 +7,9 @@ const ProjectCard = ({
   link,
   image,
 }: {
-  header: string; // title of the project
-  blurb: string; // brief description of project
-  link: string; // link to github repo
+  header?: string; // title of the project
+  blurb?: string; // brief description of project
+  link?: string; // link to github repo
   image: string; //pathway to the image
 }) => {
   return (

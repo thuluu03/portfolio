@@ -1,14 +1,16 @@
 import ProjectCard from '../../components/ProjectCard/projectCard.tsx';
 import details from '../../assets/user.ts';
-import './projectsStyle.css';
+import styles from './projectsStyle.module.css';
 
 const projects = details.projects;
 
 const Projects = () => {
   return (
     <div>
-      <h2>Projects</h2>
-      <div className="project-wrapper">
+      <h1 className="header blue">
+        Projects ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      </h1>
+      <div className={styles.projectWrapper}>
         {projects.map((x) => {
           return (
             <ProjectCard
