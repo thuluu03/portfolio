@@ -5,13 +5,15 @@ import ProjectCard from '../../components/ProjectCard/projectCard';
 const AboutMe = () => {
   return (
     <div>
-      <h1 className="header blue">About Me ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h1>
+      <h1 id="about-me" className="header blue">
+        About Me ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      </h1>
       <div className={styles.bodyWrapper}>
         <div className="">
           {/* blurb */}
           {details.about.blurb}
         </div>
-        <ProjectCard image={details.about.image}/>
+        <ProjectCard image={details.about.image} />
       </div>
     </div>
   );

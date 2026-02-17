@@ -7,7 +7,7 @@ const projects = details.projects;
 const Projects = () => {
   return (
     <div>
-      <h1 className="header blue">
+      <h1 id="projects" className="header blue">
         Projects ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       </h1>
       <div className={styles.projectWrapper}>

@@ -1,14 +1,19 @@
 import React from "react";
-import "./navbarStyle.css";
+import styles from "./navbarStyle.module.css";
 
-const navbar = () => {
+const Navbar = () => {
     return (
-        <div className="navbar">
-            <div className="container">
-                <a>Home</a>
-                <a>Projects</a>
-                <a>About Me</a>
+        <div className={styles.navbar}>
+            <div className={styles.navbarHeader + " blue"}>
+                Thu's Portfolio
+            </div>
+            <div className={styles.navbarWrapper}>
+                <a className={styles.navbarLink} href="#hero">Home</a>
+                <a className={styles.navbarLink} href="#projects">Projects</a>
+                <a className={styles.navbarLink} href="#about-me">About Me</a>
             </div>
         </div>
     )
 }
+
+export default Navbar;
