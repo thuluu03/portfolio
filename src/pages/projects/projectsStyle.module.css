@@ -1,8 +1,14 @@
-
 .projectWrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1cm;
-    row-gap: 1cm;
-    align-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1cm;
+  row-gap: 1cm;
+  align-self: center;
+
+  justify-content: center;
+  justify-items: center;
+
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }

@@ -1,5 +1,13 @@
-
 .bodyWrapper {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 1cm;
+
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
